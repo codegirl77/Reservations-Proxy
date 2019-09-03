@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Restuarant Reservations Page</title>
+  </head>
+  <body>
+  <div id="Reservations"></div>
+  <!-- <div id="Menu"></div>
+  <div id="Banner-Gallery"></div>
+  <div id="Reviews"></div> -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin"></script>
+  <script src="http://localhost:3002/main.js"></script>
+  <!-- <script src="http://localhost:3002/app.js"></script>
+  <script src="http://localhost:3003/app.js"></script>
+  <script src="http://localhost:3004/app.js"></script> -->
+  <script>
+    ReactDOM.render(
+      React.createElement(ReservationsModule.default),
+      document.getElementById('Reservations')
+    );
+    </script>
+    <!-- // ReactDOM.render(
+    //   React.createElement(Menu),
+    //   document.getElementById('Menu')
+    // );
+    // ReactDOM.render(
+    //   React.createElement(Banner-Gallery),
+    //   document.getElementById('Banner-Gallery')
+    // );
+    // ReactDOM.render(
+    //   React.createElement(Reviews),
+    //   document.getElementById('Reviews')
+    // ); -->
+  </body>
+</html>
