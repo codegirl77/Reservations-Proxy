@@ -13,7 +13,7 @@
   <body>
   <div id="Reservations"></div>
   <div id="BannerGallery"></div>
-  <div id="Menu"></div>
+  <div id="Menus"></div>
   <div id="Reviews"></div>
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin"></script>
@@ -27,18 +27,17 @@
       React.createElement(ReservationsModule.default),
       document.getElementById('Reservations')
     );
+    // ReactDOM.render(
+    //   React.createElement(BannerGallery.default),
+    //   document.getElementById('BannerGallery')
+    // );
+    // ReactDOM.render(
+    //   React.createElement(Reviews.default),
+    //   document.getElementById('Reviews')
+    // );
     ReactDOM.render(
-      React.createElement(BannerGallery.default),
-      document.getElementById('BannerGallery')
-    );
-    ReactDOM.render(
-      React.createElement(Reviews.default),
-      document.getElementById('Reviews')
-    );
-    console.log(window.menu)
-    ReactDOM.render(
-      React.createElement(window.Menu),
-      document.getElementById('Menu')
+      React.createElement(window.menu),
+      document.getElementById('Menus')
     );
     </script>
   </body>
